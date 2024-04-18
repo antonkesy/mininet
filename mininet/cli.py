@@ -162,7 +162,7 @@ class CLI( Cmd ):
         output( 'available nodes are: \n%s\n' % nodes )
 
     def do_ports( self, _line ):
-        "display ports and interfaces for each switch"
+        "Display ports and interfaces for each switch"
         dumpPorts( self.mn.switches )
 
     def do_net( self, _line ):
